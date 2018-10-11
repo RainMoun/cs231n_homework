@@ -5,7 +5,7 @@
 class Matrix:
     def __init__(self, lst):
         self.matrix = lst
-        self.row = len(lst) # 矩阵长
+        self.row = len(lst)  # 矩阵长
         if lst[0]:
             self.column = len(lst[0])  # 矩阵宽
         else:
