@@ -27,10 +27,11 @@ class Matrix:
 
 
 if __name__ == '__main__':
-    m1 = Matrix([[2, 1],
-                 [4, 3]])
+    m1 = Matrix([[2, 1, 6],
+                 [4, 3, 2]])
     m2 = Matrix([[1, 2],
-                 [1, 0]])
+                 [1, 0],
+                 [2, 1]])
     result = m1.matrix_multiplication(m2)
     print(result)
 
